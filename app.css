@@ -1,0 +1,16 @@
+p {
+    font-size: 3em;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Montserrat',sans-serif;
+    background:url('https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000');
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: text 7.5s linear infinite;
+
+}
+@keyframes text{
+    from {background-position: 0% 50%;}
+    to {background-position: 100% 100%;}
+}
